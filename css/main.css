@@ -357,6 +357,14 @@ html{
        width: 95%;
     }
 }
+@media (max-width: 390px){
+    .meals-content.show{
+        height: 320px;
+    }
+    .meals-content .container .col .text{
+        margin-left: 30px;
+    }
+}
 .shop-content{
     position: relative;
     z-index: 4;
@@ -479,6 +487,11 @@ html{
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
+}
+@media (max-width: 390px){
+    .my-cart .container .all-items .product-one{
+        margin-left: 30px;
+    }
 }
 .my-cart .container .all-items .product-one img{
     width: 90px;
@@ -1636,6 +1649,11 @@ html{
     margin-right: 150px;
     margin-top: 50px;
 }
+@media (max-width: 768px){
+    .contact-Us .container .contact-Content .col-one{
+        width: 100%;
+    }
+}
 .contact-Us .container .contact-Content .col-one .text{
     display: flex;
     align-items: center;
@@ -1757,7 +1775,8 @@ html{
     }
     .contact-Us .container .contact-Content form .submit-form{
         width: 100px;
-        margin-left: 20px;
+        margin-left: 10px;
+        text-align: center;
     }
 }
 /*End Contact-Us*/
